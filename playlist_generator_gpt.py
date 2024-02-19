@@ -85,4 +85,4 @@ elif decider=="Based on how you feel?":
             if satisfiedinput=="N":
                 st.write("Give more proper name of the song or might add more details about singer")
             else:
-                st.write("Enter a better prompt.I would suggest")
+                st.write("Good enjoy the music.")
