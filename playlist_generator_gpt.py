@@ -26,7 +26,7 @@ st.title("Playlist Generator App")
 
 # st.write("How do you want to create playist today?")
 
-decider=st.selectbox("How do you want to create playlist today?",["Based on how you feel?", "Based on song lyrics","Based on Aritst name & similar artist","Based on genre","Based on trending"],key="key1")
+decider=st.selectbox("How do you want to create playlist today?",["Based on how you feel?", "Based on song lyrics"],key="key1")
 
 if decider !="Based on how you feel?":
     if decider=="Based on song lyrics":
